@@ -228,11 +228,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (crunchifyEditText.getText() == "0") {
                     crunchifyEditText.setText("0");
-                } else {
+                } else if(crunchifyMultiplication == false) {
 
                     mValueOne = Float.parseFloat(crunchifyEditText.getText() + "");
                 crunchifyMultiplication = true;
-                crunchifyEditText.setText(null);}
+                    crunchifyEditText.setText(crunchifyEditText.getText() + " * ");
+                }
             }
         });
 
@@ -241,10 +242,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (crunchifyEditText.getText() == "0") {
                     crunchifyEditText.setText("0");
-                } else {
+                } else if(crunchifyDivision == false) {
                     mValueOne = Float.parseFloat(crunchifyEditText.getText() + "");
                     crunchifyDivision = true;
-                    crunchifyEditText.setText(null);
+                    crunchifyEditText.setText(crunchifyEditText.getText() + " / ");
                 }}
         });
 
@@ -273,12 +274,20 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (crunchifyMultiplication == true) {
-                    crunchifyEditText.setText(mValueOne * mValueTwo + "");
+                    String mystr = crunchifyEditText.getText().toString();
+                    String[] myvals = mystr.split(" ");
+                    int addtiond = Integer.parseInt(myvals[0]) * Integer.parseInt(myvals[2]);
+                    crunchifyEditText.setText(""+addtiond);
+                    myanswer.setText(""+addtiond);
                     crunchifyMultiplication = false;
                 }
 
                 if (crunchifyDivision == true) {
-                    crunchifyEditText.setText(mValueOne / mValueTwo + "");
+                    String mystr = crunchifyEditText.getText().toString();
+                    String[] myvals = mystr.split(" ");
+                    int addtiond = Integer.parseInt(myvals[0]) / Integer.parseInt(myvals[2]);
+                    crunchifyEditText.setText(""+addtiond);
+                    myanswer.setText(""+addtiond);
                     crunchifyDivision = false;
                 }
             }
