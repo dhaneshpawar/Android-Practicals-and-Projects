@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mytablayout</string>
+    <string-array name="exammarks">
+        <item>4</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>30</item>
+        <item>20</item>
+        <item>150</item>
+    </string-array>
+
+    <string-array name="contentofchapters">
+        <item>Unit 1 : Introduction</item>
+        <item>Content of unit 1 : android,layouts and etc</item>
+        <item>Unit 2 : Chapter 2</item>
+        <item>Content of unit 2 : android, tab layout and etc</item>
+    </string-array>
+</resources>
