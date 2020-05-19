@@ -51,18 +51,15 @@ public class MainActivity extends AppCompatActivity {
         crunchifyEditText.setText("0");
         myanswer.setText("0");
 
+
         buttonDot.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                if (crunchifyEditText.getText() == "0") {
-                    crunchifyEditText.setText(".");
-                }
-                else
-                {
-                    crunchifyEditText.setText(crunchifyEditText.getText() + ".");
-                }
+
             }
         });
+
+
 
         button0.setOnClickListener(new View.OnClickListener(){
             @Override

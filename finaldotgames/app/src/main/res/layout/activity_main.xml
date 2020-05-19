@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <Button
+                android:id="@+id/circle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R3"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+
+            <Button
+                android:id="@+id/line3"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/line4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <TextView
+                android:id="@+id/box1"
+                android:text="B1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box2"
+                android:text="B2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box3"
+                android:text="B3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/line7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/circle5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R6"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R7"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+
+            <Button
+                android:id="@+id/line12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R8"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/line4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <TextView
+                android:id="@+id/box1"
+                android:text="B1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box2"
+                android:text="B2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box3"
+                android:text="B3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/line7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/circle5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R6"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R7"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+
+            <Button
+                android:id="@+id/line12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R8"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/line4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <TextView
+                android:id="@+id/box1"
+                android:text="B1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box2"
+                android:text="B2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/line6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+            <TextView
+                android:id="@+id/box3"
+                android:text="B3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/line7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verticalline"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/circle5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R6"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/line11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R7"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+
+            <Button
+                android:id="@+id/line12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/line"
+                android:padding="15dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <Button
+                android:id="@+id/circle8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circlebutton"
+                android:padding="15dp"
+                android:text="R8"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="64dp" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

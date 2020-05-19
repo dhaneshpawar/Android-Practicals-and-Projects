@@ -27,6 +27,10 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
                 PracticalFragment practicalFragment = new PracticalFragment();
                 return practicalFragment;
 
+            case 3:
+                PracticalFragment practicalFragment2 = new PracticalFragment();
+                return practicalFragment2;
+
             default:
                 return null;
         }
@@ -34,15 +38,15 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Nullable
 
     @Override
-    public CharSequence getPageTitle(int position)
+    public CharSequence getPageTitle(int i)
     {
-        switch (position){
+        switch (i){
 
 
             case 0: return "Scheme";
@@ -50,6 +54,8 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
             case 1: return "Content";
 
             case 2: return "Practical";
+
+            case 3: return "nothing";
 
 
             default:

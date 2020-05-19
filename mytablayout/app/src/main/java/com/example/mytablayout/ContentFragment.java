@@ -30,6 +30,9 @@ public class ContentFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        View root = inflater.inflate(R.layout.fragment_content, null);
+
+
         String mobileArray[] = getResources().getStringArray(R.array.contentofchapters);
 
 
@@ -38,8 +41,8 @@ public class ContentFragment extends Fragment {
         for(int i=0;i<mobileArray.length;i++){
             arr_content.add(mobileArray[i]);
         }
+
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_content, null);
 
         ArrayAdapter itemsAdapter =
                 new ArrayAdapter<>(getContext(),android.R.layout.simple_list_item_1, arr_content);

@@ -10,13 +10,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
-
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class PracticalFragment extends Fragment {
 
+    String[] arr1,arr2;
+    ListView listView;
 
     public PracticalFragment() {
         // Required empty public constructor
@@ -27,25 +29,57 @@ public class PracticalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-//        listView = (ListView) view.find;
-        return inflater.inflate(R.layout.fragment_practical, container, false);
+
+        View view= inflater.inflate(R.layout.fragment_practical, container, false);
+
+        arr1=getResources().getStringArray(R.array.Practical_Content);
+
+        arr2=getResources().getStringArray(R.array.Practical);
+
+
+        listView=(ListView) view.findViewById(R.id.list_practical);
+
+
+
+        CustomAdapter customAdapter = new CustomAdapter();
+
+
+
+        listView.setAdapter(customAdapter);
+        return  view;
+    }
+
+    class CustomAdapter extends BaseAdapter
+    {
+
+        @Override
+        public int getCount() {
+            return arr1.length;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return arr1[position];
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            View v = getLayoutInflater().inflate(R.layout.listviewlayout,null);
+
+            TextView t1=(TextView) v.findViewById(R.id.t1);
+            TextView t2=(TextView) v.findViewById(R.id.t2);
+
+            t1.setText(arr2[position]);
+            t2.setText(arr1[position]);
+
+            return v;
+        }
     }
 
 }
-
-//class CustomAdapter extends BaseAdapter{
-//    @Override
-//    public int getCount() {
-//        return 0;
-//    }
-//
-//    @Override
-//    public Object getItem(int position) {
-//        return null;
-//    }
-//
-//    @Override
-//    public long getItemId(int position) {
-//        return 0;
-//    }
-//}

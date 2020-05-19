@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">mytablayout</string>
+
+
     <string-array name="exammarks">
         <item>4</item>
         <item>20</item>
@@ -10,10 +12,37 @@
         <item>150</item>
     </string-array>
 
+
     <string-array name="contentofchapters">
         <item>Unit 1 : Introduction</item>
         <item>Content of unit 1 : android,layouts and etc</item>
         <item>Unit 2 : Chapter 2</item>
         <item>Content of unit 2 : android, tab layout and etc</item>
     </string-array>
+
+
+    <string-array name="Practical">
+        <item>Practical No. 1 : Tic-Tac-Toe game</item>
+        <item>Practical No. 2 : Calculator APP</item>
+        <item>Practical No. 3 : Design Tab Layout</item>
+        <item>Practical No. 4 : Design List Layout</item>
+        <item>Practical No. 5 : Create database storage</item>
+        <item>Practical No. 6 : Create a Hybrid app which can be run on any platform</item>
+
+    </string-array>
+
+
+    <string-array name="Practical_Content">
+        <item>Extend the programing written in practical no 1 and provide UI using android and run it in android virtual
+device.</item>
+        <item>Create a simple calculator application in android and run it in real device.</item>
+        <item>Design a tab layout for android device and show course infromation in each tab. (Exam Scheme, Content,
+Practical List)</item>
+        <item>Extend the practical no. 4 and add list layout for different courses after clicking on course display the
+course information in tab layout as done in practical no. 4</item>
+        <item>For practical no. 5 provide the backend support for data storage and store all the course information in
+database, also provide a functionality to edit the course content in application.</item>
+        <item>Create a hybrid app for the practical no.6 using any hybrid app framework</item>
+    </string-array>
+
 </resources>

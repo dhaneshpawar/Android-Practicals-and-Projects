@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Tab Layout");
 
-        myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
         myTabsAccessorAdapter = new TabsAccessorAdapter(getSupportFragmentManager());
+
+        myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
         myViewPager.setAdapter(myTabsAccessorAdapter);
 
         myTabLayout = (TabLayout) findViewById(R.id.main_tabs);
